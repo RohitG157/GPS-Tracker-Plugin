@@ -1,0 +1,27 @@
+.gpsminicontainer{
+	margin-top: 5%;
+}
+
+.border-button, .border-button:hover{
+	border-color: #337ab7;
+	color: #337ab7;
+	background-color: white;
+}
+.userClass .active {
+    color: red;
+}
+.mapDiv{
+	position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 85% !important;
+}
